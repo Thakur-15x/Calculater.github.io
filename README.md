@@ -1,2 +1,3 @@
 # Thakur-15x.github.io
- Educational website
+ It's a Basic Web Calculater.
+ Hope you Liked it.
