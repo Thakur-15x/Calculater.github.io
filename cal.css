@@ -1,0 +1,80 @@
+body{
+    background-color: cadetblue;
+    background-image: url(slid1.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vw;
+    
+}
+.container{
+    display: block;
+    border-radius: 20px;
+    background-color: darkgray;
+    text-align: center;
+    border: 2px solid black;
+    width: 30vw;
+    margin: auto;
+
+}
+table{
+    margin: auto;
+    margin-top:15px ;
+    margin-bottom: 15px;
+}
+input{
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 32px;
+    padding-left: 10px;
+}
+.btn button{
+    display: inline-block;
+    border-radius: 8px;
+    margin: 2px;
+    font-size:40px;
+    background-color: rgb(189, 120, 221);
+    width: 80px;
+    height: 80px;
+
+}
+.hii footer {
+    margin-top:  100px;
+    color: aliceblue;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+@media only screen and (max-width:1200px){
+    body{
+        background-size: 200% 300%;
+        
+    }
+    .container{
+        display: block;
+        background:none;
+        text-align: center;
+        border:  0px solid white;
+        margin: auto;
+        width: 115%;
+    }
+    .container h1{
+        
+        font-size: 10vw;
+        color: white;
+
+    }
+    input{
+        margin-top:20px ;
+    }
+    .btn button{
+        display: inline-block;
+        border-radius: 8px;
+        margin: 2px;
+        font-size:40px;
+        background-color: rgb(189, 120, 221);
+        width: 80px;
+        height: 80px;
+    
+    }
+
+    
+}
