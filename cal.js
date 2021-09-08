@@ -6,7 +6,7 @@ for (item of button){
         buttonText= e.target.innerText
         // console.log(buttonText)
         if(buttonText=='C'){
-            screen.value = Value;
+            screen.value = '';
             Value = '';
         }
         else if(buttonText=='='){
